@@ -1,9 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Portfolio Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Agency Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello Priyanshu!</h1>
+
+    <header>
+        <h1>Team Agency Portfolio</h1>
+
+        <nav>
+            <a href="#team">Team</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="themeBtn">🌙 Theme</button>
+    </header>
+
+    <section class="hero">
+        <h2>Building Modern Web Applications</h2>
+        <p>OJT Capstone Project Team</p>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Priyanshu Tailor</h3>
+                <p>Java, JavaScript, SQL</p>
+                <a href="#">GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Member 2</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <a href="#">GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Member 3</h3>
+                <p>API Integration</p>
+                <a href="#">GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Member 4</h3>
+                <p>Git & GitHub</p>
+                <a href="#">GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <h2>Our Projects</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Quiz App</h3>
+                <p>Interactive Quiz Application</p>
+            </div>
+
+            <div class="card">
+                <h3>Expense Tracker</h3>
+                <p>Track Income & Expenses</p>
+            </div>
+
+            <div class="card">
+                <h3>News Feed</h3>
+                <p>Live News API Integration</p>
+            </div>
+
+            <div class="card">
+                <h3>GitHub Explorer</h3>
+                <p>GitHub User Search Tool</p>
+            </div>
+
+            <div class="card">
+                <h3>Kanban Board</h3>
+                <p>Task Management System</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Enter Name">
+
+            <input type="email" id="email" placeholder="Enter Email">
+
+            <textarea id="message" placeholder="Enter Message"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
